@@ -1,0 +1,109 @@
+body {
+	text-align: center;
+	background-image: url(https://media.istockphoto.com/vectors/coding-yellow-line-tile-pattern-vector-id636489022?s=612x612);
+}
+
+h1 {
+	color: darkslateblue;
+	font-size: 40px;
+	padding-top: 100px;
+	font-family: cursive;
+}
+
+img {
+	width: 300px;
+	height: 400px;
+	padding: 10px;
+	border-style: double;
+	border-width: 29px;
+	border-color: darkmagenta
+}
+
+h2 {
+	color: purple;
+	font-size: 35px;
+	font-family: cursive;
+}
+
+.menu {
+	list-style: none;
+	top: 10px;
+	right: 30px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 10;
+}
+
+.links {
+	float: left;
+	color: darkviolet;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.links {
+	float: left;
+	color: mediumblue;
+	padding-top: 5px;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 5px;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+h2 {
+	color: rebeccapurple;
+	font-size: 40;
+	font-family: cursive;
+}
+
+h1 {
+	color: purple;
+	font-size: 40;
+	font-family: cursive;
+}
+
+.button {
+	background-color: #f44336;
+	/* Red */
+	font-size: 20px;
+	border: dashed;
+	border-color: darkviolet;
+	border-radius: 12px;
+	padding: 14px 40px;
+	padding-bottom: 14px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: cursive;
+	;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.article:hover {
+	color: fuchsia;
+}
+
+}
+
+html {
+	scroll-behavior: smooth;
+
+}
+
+img {
+	transition: transform .2s;
+}
+
+img:hover {
+	transform: scale(0.9);
+}
